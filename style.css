@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: #000000;
+}
+
+.text{
+    height: 120px;
+    width: 250px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 17%;
+    margin-right: 180px;
+    animation: carregamento 2s ease-in-out infinite;
+
+}
+
+@keyframes carregamento {
+    0%{
+        color:#ffbe0b;
+    }
+
+    25%{
+        color:#fb5607;
+    }
+
+    50%{
+        color:#ff006e;    
+    }
+
+    100%{
+        color:#8338ec;
+    }
+}
